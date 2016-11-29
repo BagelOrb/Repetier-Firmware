@@ -1022,7 +1022,7 @@ Mega. Used only for nonlinear systems like delta or tuga. */
     Overridden if EEPROM activated.
 */
 #define MAX_INACTIVE_TIME 0L
-/** Maximum feedrate, the system allows. Higher feedrates are reduced to these values.
+/** Maximum feedrate, the system allows in mm/s. Higher feedrates are reduced to these values.
     The axis order in all axis related arrays is X, Y, Z
      Overridden if EEPROM activated.
     */
